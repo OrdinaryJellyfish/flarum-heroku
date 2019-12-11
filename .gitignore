@@ -1,7 +1,6 @@
 .DS_Store
 Thumbs.db
 .vagrant
-config.php
 .idea
 vendor
 server
