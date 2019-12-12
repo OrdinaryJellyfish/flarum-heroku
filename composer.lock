@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c055fe4c6388e91dfce3c90b7dc44f3b",
+    "content-hash": "6367fd956b6fe2f40a9042df6ddb4aa3",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -181,6 +181,60 @@
                 "sourcemap"
             ],
             "time": "2018-04-16T13:23:46+00:00"
+        },
+        {
+            "name": "clarkwinkelmann/flarum-ext-status",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clarkwinkelmann/flarum-ext-status.git",
+                "reference": "bc4573c3d0d62612755ac7ac704cd6cbc8568785"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-status/zipball/bc4573c3d0d62612755ac7ac704cd6cbc8568785",
+                "reference": "bc4573c3d0d62612755ac7ac704cd6cbc8568785",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.12"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Status",
+                    "icon": {
+                        "name": "fas fa-grin",
+                        "backgroundColor": "#000",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ClarkWinkelmann\\Status\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "User status for Flarum",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2019-11-14T22:24:47+00:00"
         },
         {
             "name": "components/font-awesome",
