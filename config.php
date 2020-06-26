@@ -1,4 +1,5 @@
 <?php
+// if using with Heroku ClearDB add-on
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 return array (
@@ -18,7 +19,7 @@ return array (
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
-  'url' => 'https://fast-retreat-89647.herokuapp.com',
+  'url' => 'https://example.com',
   'paths' =>
   array (
     'api' => 'api',
