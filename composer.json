@@ -22,7 +22,6 @@
     },
     "require": {
         "ext-gd": "*",
-        "clarkwinkelmann/flarum-ext-status": "^0.1.0",
         "flarum/approval": "^0.1.0",
         "flarum/auth-facebook": "^0.1.0",
         "flarum/auth-github": "^0.1.0",
